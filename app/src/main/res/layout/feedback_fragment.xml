@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+
+    <EditText
+        android:id="@+id/feedback_editTxt"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginVertical="@dimen/_25sdp"
+        android:hint="Write your feedback"
+        android:gravity="top"
+        android:paddingTop="@dimen/_10sdp"
+        android:paddingLeft="@dimen/_10sdp"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_13sdp"
+        android:background="@drawable/ic_edit_myprofile_background"/>
+
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_gravity="center_horizontal"
+        android:text="Submit"
+        android:textSize="@dimen/_15sdp"
+        android:background="@drawable/round_pink_solid"
+        android:paddingHorizontal="@dimen/_40sdp" />
+
+
+</LinearLayout>
